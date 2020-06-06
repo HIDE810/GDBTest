@@ -3,10 +3,10 @@
 #include <string.h>
 #include <3ds.h>
 
+volatile int x = 0;
+
 int main(int argc, char* argv[])
 {
-    volatile int x = 0;
-	
 	gfxInitDefault();
 	consoleInit(GFX_TOP, NULL);
 
